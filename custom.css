@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #616060;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1, h2, h4, h5, h6, p, a{
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 600;
+    color: #13253d;
+}
+
+.active, .nav-link:hover {
+    background-color: #acacac;
+    padding: 4px;
+    border-radius: 12px;
+    transition: .1s;
+}
+
+.navbar-light .navbar-toggler{
+    border-color:  rgb(255, 255, 255);
+    color: rgb(163, 32, 32);
+}
+
+.navbar-toggler {
+    border-color: rgb(5, 5, 5);
+    color: rgb(177, 177, 177);
+}
+
+.navbar-toggler:hover {
+    border-color: rgb(0, 0, 0);
+    color: rgb(86, 86, 86);
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.heading {
+    background-color: #3a3a3a;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.carpe-diem{
+    font-size: 12vw;
+    letter-spacing: -2px;
+    opacity: .3;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+.card-body{
+    background-color: #616060;
+
+}
+
+.btn-outline-dark{
+    background-color: #acacac;
+
+}
+
+.btn-outline-dark:hover{
+    background-color: #3a3a3a;
+
+}
+
+label {
+    color: white;
+}
+
+footer {
+    background-color: #3a3a3a;
+    color: wheat;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #dfdfdf;
+}
+
+.nav-link-active {
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
